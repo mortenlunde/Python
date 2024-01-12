@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 100%;
+}
+h1 {
+    font-family: 'Courier New', monospace;
+    text-align: center;
+    background-color: #3498db;
+    color: #fff;
+    padding: 20px;
+    margin: 0;
+}
+table {
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0 0  5px rgba(0, 0, 0, 0.2);
+    table-layout: fixed;
+}
+th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+    word-break: break-word;
+}
+th {
+    background-color: #3498db;
+    color: #fff;
+}
+
+table.dataTable tbody tr:nth-child(odd) {
+    background-color: #eaeaea;
+}
+
+table.dataTable tbody tr:nth-child(even) {
+    background-color: #ffffff;
+}
+
+label, select, input, form {
+    display: block;
+    text-align: center;
+    margin: 0 auto 10px;
+}
+form {
+    width: 20%;
+}
+#tableOrViewSelect {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#submitForm {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#submitForm input {
+    margin-right: 5px;
+}
+select, input {
+    width: 100%;
+    text-align-last:center;
+}
+.or-label {
+    display: inline-block;
+    margin: 0;
+}
+html, body, .container {
+    height: 100%;
+
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

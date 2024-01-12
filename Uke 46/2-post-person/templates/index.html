@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Person Data</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8_M2HN" crossorigin="anonymous">
+
+    <!-- Add DataTables CSS and JS -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.24/css/jquery.dataTables.css">
+    <script type="text/javascript" charset="utf8" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.24/js/jquery.dataTables.js"></script>
+
+    <!-- Add custom styles -->
+    <style>
+    body {
+        background-color: #f8f9fa;
+    }
+
+    .container {
+        background-color: #ffffff;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+        font-family: "Courier New",serif;
+    }
+
+    table {
+        width: 80%; /* Adjust the width as needed */
+        margin-top: 20px;
+    }
+
+    th, td {
+        padding: 8px;
+        text-align: left; /* Change to left alignment */
+    }
+
+    thead {
+        background-color: #343a40;
+        color: #ffffff;
+    }
+
+    tbody tr:hover {
+        background-color: #f8d7da;
+    }
+</style>
+</head>
+<body>
+<div class="container mt-5">
+    <h1 style="text-align: center">Personer hentet fra CSV-fil</h1>
+    <hr>
+    <table class="table table-striped table-bordered table-hover" id="personTable">
+        <thead class="table-dark">
+        <tr>
+            {% for head in headers %}
+            <th>{{ head }}</th>
+            {% endfor %}
+        </tr>
+        </thead>
+        <tbody>
+        {% for person in persons %}
+        <tr>
+            {% for field in person %}
+            <td>{{ field }}</td>
+            {% endfor %}
+        </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+
+        <form action="/add_person" method="get">
+        <input type="submit" value="Legg til ny person">
+    </form>
+</div>
+
+<script>
+    // Initialize DataTable with sorting options
+    $(document).ready(function () {
+        $('#personTable').DataTable();
+    });
+</script>
+
+</body>
+</html>

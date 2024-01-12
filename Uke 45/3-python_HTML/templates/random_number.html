@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="no-nb">
+<head>
+    <meta charset="UTF-8">
+    <title>Random number</title>
+</head>
+<body>
+        <h1 style="font-family: Calibri; color: coral; font-style: italic; text-align: center">En liste med tilfeldige tall:</h1>
+        <ul>
+    {% for nr in numbers %}
+        <li>{{ nr }}</li>
+    {% endfor %}
+</ul>
+</body>
+</html>

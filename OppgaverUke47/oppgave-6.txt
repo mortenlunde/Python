@@ -1,0 +1,48 @@
+A.
+    En matematikk lærer ønsker å ha et program som kan lage tilfeldige matematikk oppgaver til sine elever. Eleven skal
+    øve på addisjon og subtraksjon (pluss og minus). Oppgave skal lages tilfeldig og skrives til en fil.
+    Hver oppgave skal ha to ledd og det skal være tilfeldig valg operator (pluss eller minus) mellom de.
+    Tallene som legges sammen skal også lages tilfeldig og skal være mellom 1 og 100.
+
+    Læreren ønsker at det skal lages en kosoll applikasjon han blir bedt om hvor mange som skal lages og navnet på filen
+    som skal lages av programmet.
+
+    Filen som skal lages kan se slik ut:
+        1: 64 + 79 =
+        2: 19 - 42 =
+        3: 83 + 92 =
+        4: 30 - 91 =
+        5: 15 + 55 =
+        6: 13 - 7 =
+        7: 42 + 24 =
+        8: 47 + 42 =
+        9: 31 + 44 =
+        10: 98 + 38 =
+        ....
+
+
+B.
+    I tillegg til å lage denne filen med oppgaver ønsker læreren at det også lages et program som kan lage
+    løsningsforlag for det som er laget. Dette løsningsforslaget skal skrives til en annen fil.
+
+    Læreren ønsker å bruke dette scriptet på samme måte slik at han kan skrive inn hvilken fil som skal løses.
+    Det skal også være mulig for læreren å velge navn på filen hvor løsningsforslaget blir lagret.
+
+    Forslag til hvordan filen kan se ut:
+        1: 64 + 79 = 143
+        2: 19 - 42 = -23
+        3: 83 + 92 = 175
+        4: 30 - 91 = -61
+        5: 15 + 55 = 70
+        6: 13 - 7 = 6
+        7: 42 + 24 = 66
+        8: 47 + 42 = 89
+        9: 31 + 44 = 75
+        10: 98 + 38 = 136
+        ....
+
+C.
+    Lærereren ønsker nå å utvide oppgaven og det skal nå legges til både multiplikasjon og divisjon til oppgavene
+    som blir laget. Forklar med egne ord hva du som programmerer må gjøre for å utvide med denne funksjonaliteten.
+
+    Deretter koder du utvidelesen og tester løsningen.

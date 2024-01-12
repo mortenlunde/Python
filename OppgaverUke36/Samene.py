@@ -1,0 +1,90 @@
+import turtle
+
+tf = turtle.Screen()
+tf.setup(width=740, height=560)
+tf.bgcolor("#0038A8")
+turtle.hideturtle()
+turtle.speed(10)
+turtle.penup()
+turtle.goto(-740, -280)
+turtle.pendown()
+turtle.pencolor("#D81E05")
+turtle.fillcolor("#D81E05")
+
+turtle.begin_fill()
+
+turtle.forward(640)
+turtle.left(90)
+turtle.forward(740)
+turtle.left(90)
+turtle.forward(640)
+turtle.left(90)
+turtle.forward(740)
+
+turtle.end_fill()
+
+turtle.goto(-100, -280)
+turtle.pencolor("#007A3D")
+turtle.fillcolor("#007A3D")
+
+turtle.begin_fill()
+
+turtle.left(90)
+turtle.forward(50)
+turtle.left(90)
+turtle.forward(740)
+turtle.left(90)
+turtle.forward(50)
+turtle.left(90)
+turtle.forward(740)
+
+turtle.end_fill()
+
+turtle.goto(-50, -280)
+turtle.pencolor("#FCD116")
+turtle.fillcolor("#FCD116")
+
+turtle.begin_fill()
+
+turtle.left(90)
+turtle.forward(50)
+turtle.left(90)
+turtle.forward(740)
+turtle.left(90)
+turtle.forward(50)
+turtle.left(90)
+turtle.forward(740)
+
+turtle.end_fill()
+turtle.penup()
+
+turtle.fillcolor("#D81E05")
+turtle.goto(-250, 0)
+turtle.pendown()
+turtle.pensize(30)
+turtle.pencolor("#D81E05")
+turtle.circle(200, 270)
+turtle.pencolor("#0038A8")
+turtle.circle(200, 180)
+
+turtle.penup()
+turtle.goto(-50, 185)
+turtle.pensize(1)
+turtle.pencolor("#D81E05")
+turtle.pendown()
+turtle.fillcolor("#D81E05")
+turtle.begin_fill()
+turtle.circle(15, 180)
+turtle.end_fill()
+
+turtle.penup()
+turtle.goto(-50, -185)
+turtle.pensize(1)
+turtle.pencolor("#D81E05")
+turtle.pendown()
+turtle.fillcolor("#D81E05")
+turtle.begin_fill()
+turtle.circle(15, -180)
+turtle.end_fill()
+
+turtle.exitonclick()

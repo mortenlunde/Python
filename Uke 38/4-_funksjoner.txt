@@ -1,0 +1,26 @@
++-------------------------------+--------------------------------------------------------------------------------------|
+| Emne                          | Detaljert Beskrivelse                                                                |
++-------------------------------+--------------------------------------------------------------------------------------|
+| Introduksjon til Funksjoner   | Funksjoner er blokker med gjenbrukbar kode designet for å utføre en bestemt oppgave. |
+|                               | De hjelper med modularisering,                                                       |
+|                               | reduserer kodegjentagelse, og gjør programmet lettere å vedlikeholde.                |
++-------------------------------+--------------------------------------------------------------------------------------|
+| Definisjon av en Funksjon     | Funksjoner er definert ved bruk av `def` nøkkelordet. Den grunnleggende syntaksen er:|
+|                               | `def funksjonsnavn(parametere):`                                                     |
+|                               | Etterfulgt av et innrykket kodeblokk. Eks: `def hilsen(navn): return "Hei " + navn`  |
++-------------------------------+--------------------------------------------------------------------------------------|
+| Parametere og Argumenter      | Parametere er variabler i definisjonen av en funksjon, mens argumenter er de faktiske|
+|                               | verdiene sendt til funksjonen                                                        |
+|                               | når den blir kalt. Funksjoner kan ha posisjonsbaserte argumenter, nøkkelordbaserte   |
+|                               | argumenter, og standardverdier.                                                      |
++-------------------------------+--------------------------------------------------------------------------------------|
+| Return-verdier                | `return` nøkkelordet lar en funksjon returnere en verdi til kalleren.                |
+|                               | En funksjon kan returnere en verdi, flere                                            |
+|                               | verdier (ved hjelp av tupler) eller ingen verdi (i så fall returnerer den            |
+|                               | `None` implisitt).                                                                   |
++-------------------------------+--------------------------------------------------------------------------------------|
+| Variabel Scope                | Variabler definert inne i en funksjon er lokale for den funksjonen.                  |
+|                               | Variabler definert utenfor alle funksjoner er globale. En lokal variable kan ikke få |
+|                               | tilgang til eller endre en global variabel med mindre den er erklært som             |
+|                               | `global` inne i funksjonen.                                                          |
++-------------------------------+--------------------------------------------------------------------------------------/

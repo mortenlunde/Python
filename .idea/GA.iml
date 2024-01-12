@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="PYTHON_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/venv" />
+    </content>
+    <orderEntry type="jdk" jdkName="Python 3.11 (GA)" jdkType="Python SDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="jquery-3.6.0" level="application" />
+    <orderEntry type="library" name="jquery.dataTables" level="application" />
+    <orderEntry type="library" name="bootstrap" level="application" />
+    <orderEntry type="library" name="jquery-3.6.4" level="application" />
+    <orderEntry type="library" name="bootstrap" level="application" />
+    <orderEntry type="library" name="jquery-3.6.4" level="application" />
+    <orderEntry type="library" name="jquery.dataTables" level="application" />
+  </component>
+  <component name="PyDocumentationSettings">
+    <option name="renderExternalDocumentation" value="true" />
+  </component>
+  <component name="TemplatesService">
+    <option name="TEMPLATE_FOLDERS">
+      <list>
+        <option value="$MODULE_DIR$/Uke 45/5-FromMySQL/templates" />
+        <option value="$MODULE_DIR$/Uke 45/4-PersonData/templates" />
+        <option value="$MODULE_DIR$/Uke 45/2-First_HTML_Page/templates" />
+        <option value="$MODULE_DIR$/Uke 45/3-python_HTML/templates" />
+        <option value="$MODULE_DIR$/Uke 46/1-post_data/templates" />
+        <option value="$MODULE_DIR$/Uke 46/2-post-person/templates" />
+        <option value="$MODULE_DIR$/MorLin/templates" />
+      </list>
+    </option>
+  </component>
+</module>

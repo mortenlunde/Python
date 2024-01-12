@@ -1,0 +1,5 @@
+A. Antall solgte gensere totalt: 56
+B. Total inntekt for alle gensere: 22344
+C. Antall personer som har bestilt i XL: 5
+D. Antall personer som handlet mer enn 3 varer: 6
+E. Fargen det er solgt mest av er: Blå - 31

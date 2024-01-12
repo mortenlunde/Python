@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Front Page</title>
+        <link href="../static/styles/style.css" rel="stylesheet" type="text/css">
+        <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+        <script>
+            $(document).ready(function() {
+                $('#databaseSelect').change(function() {
+                    let selectedDb = $(this).val();
+
+                    // Fetch tables
+                    $.ajax({
+                        url: '/get_tables',
+                        type: 'POST',
+                        data: {'database': selectedDb},
+                        success: function(response) {
+                            let tables = response.tables;
+                            let options = '<option value="">Select a Table</option>'; // Blank choice
+                            for (let i = 0; i < tables.length; i++) {
+                                options += '<option value="' + tables[i] + '">' + tables[i] + '</option>';
+                            }
+                            $('#tableSelect').html(options);
+                        },
+                        error: function(error) {
+                            console.log(error);
+                        }
+                    });
+
+                    // Fetch views
+                    $.ajax({
+                        url: '/fetch_table_view',
+                        type: 'POST',
+                        data: {'database': selectedDb},
+                        success: function(response) {
+                            let views = response.tables;
+                            let options = '<option value="">Select a View</option>'; // Blank choice
+                            for (let i = 0; i < views.length; i++) {
+                                options += '<option value="' + views[i] + '">' + views[i] + '</option>';
+                            }
+                            $('#tableViewSelect').html(options);
+                        },
+                        error: function(error) {
+                            console.log(error);
+                        }
+                    });
+                });
+
+                $('#showViewForm').submit(function(event) {
+                    event.preventDefault(); // Prevent default form submission
+                    let selectedView = $('#tableViewSelect').val();
+
+                    // Fetch view data
+                    $.ajax({
+                        url: '/show_table_views',
+                        type: 'GET',
+                        data: {'table_view': selectedView},
+                        success: function(response) {
+                            // Handle the success response, e.g., update the displayed table
+                            // Update the table on the page using the retrieved data and headers
+                        },
+                        error: function(error) {
+                            console.log(error);
+                        }
+                    });
+                });
+            });
+        </script>
+    </head>
+    <body >
+        <h1>MorLin Database Explorer</h1>
+        <div class="container">
+            <form action="/show_table" method="get" id="databaseForm">
+                <label for="databaseSelect"></label>
+                    <select id="databaseSelect" name="database">
+                        <option value="" disabled selected>Select a Database</option>
+                        {% for data in databases %}
+                            <option value="{{ data }}">{{ data }}</option>
+                        {% endfor %}
+                    </select>
+
+                <div id="tableOrViewSelect">
+                    <label for="tableSelect"></label>
+                        <select id="tableSelect" name="table">
+                            <option value="" disabled selected>Select a Table</option>
+                        </select>
+
+                    <p>&nbsp;&nbsp;or&nbsp;&nbsp;</p>
+
+                    <label for="tableViewSelect"></label>
+                        <select id="tableViewSelect" name="table_view">
+                            <option value="" disabled selected>Select a View</option>
+                        </select>
+                </div>
+                <hr><br>
+                <div id="submitForm">
+                    <input type="submit" value="Show">
+                    <input type="button" value="Add data">
+                    <input type="button" value="Edit data">
+                </div>
+            </form>
+        </div>
+    </body>
+</html>

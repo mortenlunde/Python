@@ -1,0 +1,42 @@
+DROP DATABASE IF EXISTS MatteOppgaver;
+CREATE DATABASE Matteoppgaver;
+USE Matteoppgaver;
+
+DROP TABLE IF EXISTS Elev;
+CREATE TABLE Elev (
+    ElevID SMALLINT UNSIGNED AUTO_INCREMENT NOT NULL,
+    Navn VARCHAR(30) NOT NULL,
+    PRIMARY KEY (ElevID)
+);
+
+DROP TABLE IF EXISTS OppgaveSett;
+CREATE TABLE OppgaveSett (
+    OppgaveSettID SMALLINT UNSIGNED AUTO_INCREMENT NOT NULL,
+    Navn VARCHAR(10),
+    AntallOppgaver SMALLINT,
+    PRIMARY KEY (OppgaveSettID)
+);
+
+DROP TABLE IF EXISTS Oppgaver;
+CREATE TABLE Oppgaver (
+    OppgaveID SMALLINT UNSIGNED AUTO_INCREMENT NOT NULL,
+    OppgaveSettID SMALLINT UNSIGNED,
+    Oppgave VARCHAR(10),
+    Løsning SMALLINT,
+    PRIMARY KEY (OppgaveID),
+    FOREIGN KEY (OppgaveSettID) REFERENCES OppgaveSett(OppgaveSettID),
+    UNIQUE KEY (Løsning)
+);
+
+
+DROP TABLE IF EXISTS Innlevering;
+CREATE TABLE Innlevering (
+    InnleveringID SMALLINT UNSIGNED AUTO_INCREMENT NOT NULL,
+    ElevID SMALLINT UNSIGNED,
+    OppgaveID SMALLINT UNSIGNED,
+    Løsning SMALLINT,
+    PRIMARY KEY (InnleveringID),
+    FOREIGN KEY (ElevID) REFERENCES Elev(ElevID),
+    FOREIGN KEY (OppgaveID) REFERENCES Oppgaver(OppgaveID),
+    FOREIGN KEY (Løsning) REFERENCES Oppgaver(Løsning)
+);

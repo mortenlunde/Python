@@ -1,0 +1,7 @@
+Function	       | Copies metadata | Copies permissions | Uses file object | Destination may be directory
+-------------------|-----------------|--------------------|------------------|-----------------------------
+shutil.copy	       | No	             | Yes	              | No	             | Yes
+shutil.copyfile	   | No	             | No	              | No	             | No
+shutil.copy2	   | Yes	         | Yes 	              | No	             | Yes
+shutil.copyfileobj | No	             | No	              | Yes	             | No
+-------------------|-----------------|--------------------|------------------|-----------------------------
