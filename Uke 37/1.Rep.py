@@ -22,4 +22,13 @@ print("")
 
 for n in range(1, 6):
     print("|"+"_|" * 5)
-    print(("_|") * 4)
+    print("_|" * 5 + "_")
+
+
+for n in range(0, 10):
+    print(n**2)
+
+
+
+for i in range(10):
+    print(2 ** i)

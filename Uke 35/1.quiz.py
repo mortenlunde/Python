@@ -37,7 +37,7 @@ else:
 print("Spørsmål 3: Hva er datatypen til verdien True eller False?  (1, 2 eller 3)")
 
 # Alternativer spm 3
-print("1. int\n2. bol\n3. float")
+print("1. int\n2. bool\n3. float")
 svar3 = int(input("Svar ved å skrive inn alternativ nummer: "))
 print(f"Du valgte alternativ nummer: {svar3}")
 if svar3 == 2:

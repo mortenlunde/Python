@@ -14,7 +14,6 @@ print(" ")
 for i in range(0, 21, 2):
     print(i, end=" ")
 
-    print(" ")
 
 # Oppgave 4
 for i in range(1, 20, 2):
@@ -60,4 +59,10 @@ gangetall = int(input("Skriv inn et tall i gangetabellen: "))
 for i in range(1, 11, 1):
     print(f"{i}x{gangetall}={i * gangetall}")
 
-if gangetall.is
+# Gangetabellen
+print(" ")
+for j in range(1, 11):
+    row = ""
+    for i in range(1, 11):
+        row += f"{i}x{j}={i * j} \t"
+    print(row)
