@@ -1,7 +1,6 @@
-#%% Lambda
+# Lambda
 def add(x, y):
     return x+y
-
 
 print(add(5, 4))
 
@@ -9,14 +8,11 @@ add_2 = lambda x, y: x+y
 print(add_2(5, 4))
 print((lambda a, b: a+b)(2, 3))
 
-
 def sort_dict_age(d: dict):
     return d['age']
 
-
 def sort_dict_name(d: dict):
     return d['name']
-
 
 list_dicts = [
     {'name': 'Vegard', 'age': 50},

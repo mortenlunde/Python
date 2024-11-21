@@ -1,7 +1,7 @@
 import random
 from datetime import datetime, date, timedelta, time
 import time as tme
-import pytz  # Python TimeZone
+import pytz  # PycharmProjects TimeZone
 
 print("Oppgave 1")
 #%% Skriv et program som skriver ut dagens dato.

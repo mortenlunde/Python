@@ -5,7 +5,7 @@ min_turtle = turtle.Turtle()
 min_turtle.shape('turtle')
 
 # Endre hastighet
-min_turtle.speed(100)
+min_turtle.speed(10)
 
 # Vi tegner på skjerm
 min_turtle.fillcolor('blue')

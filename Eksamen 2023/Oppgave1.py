@@ -49,7 +49,7 @@ def main():
     print(f'Det lengste ordet i setningen er: {max(user_sentence.split(" "), key=len)}')
 
     # F. Fortsett programmet fra (E). Nå skal programmet skrive ut den omvendte setningen. F.eks.
-    # hvis brukeren skrev inn 'Python er gøy', skal programmet skrive ut 'gøy er Python'.
+    # hvis brukeren skrev inn 'PycharmProjects er gøy', skal programmet skrive ut 'gøy er PycharmProjects'.
     reversed_sentence = ' '.join(user_sentence.split()[::-1])
     print(f'Setningen i reversert rekkefølge er: {reversed_sentence}')
 

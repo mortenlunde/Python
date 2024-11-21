@@ -1,4 +1,4 @@
-print('A) Lag et program som oppretter en liste med 5 navn. Deretter, bruk en løkke for å be brukeren'
+dprint('A) Lag et program som oppretter en liste med 5 navn. Deretter, bruk en løkke for å be brukeren'
       'om å legge til 5 til navn i listen. Skriv ut den endelige listen.')
 
 name_list = ['Morten', 'Line', 'Jan Robert', 'Yngve', 'Brian']

@@ -1,3 +1,5 @@
+import json
+
 import typesense
 
 client = typesense.Client({
@@ -22,3 +24,6 @@ client = typesense.Client({
 
 documents = client.collections['books'].documents.search({'q': '*', 'query_by': 'title'})
 print(documents)
+
+schema = client.collections['books'].retrieve()
+print(json.dumps(schema, indent=4))

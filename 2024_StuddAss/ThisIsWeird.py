@@ -32,5 +32,5 @@ print(e == f)
 # Svar:
 # Når vi sammenligner med 'is' så ser vi om objektet referer til den samme minneadressen.
 # Når vi sammenligner med == så ser vi om to objekter har samme verdi.
-# Python gjenbruker minneaddresser ved korte strenger, men for lengre eller kombinerte strenger
+# PycharmProjects gjenbruker minneaddresser ved korte strenger, men for lengre eller kombinerte strenger
 # så brukes ikke minneaddressene alltid på nytt. Vi vil derfor kunne få False.

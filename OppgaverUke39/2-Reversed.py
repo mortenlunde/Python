@@ -26,7 +26,7 @@ for dyr in animal_dict_sort:
 animal_dict_rev = {navn: key for navn, key in reversed(animal_dict_empty.items())}
 print(animal_dict_rev)
 
-#%% Reverser rekkefølgen av ord i strengen 'Python er gøy' ved hjelp av reversed.
-morsom_tekst = 'Python er gøy'
+#%% Reverser rekkefølgen av ord i strengen 'PycharmProjects er gøy' ved hjelp av reversed.
+morsom_tekst = 'PycharmProjects er gøy'
 morsom_list = morsom_tekst.split()
 print(list(reversed(morsom_list)))

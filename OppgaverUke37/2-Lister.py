@@ -136,7 +136,7 @@ print(my_same_list_tom)
 # Identifiser og skriv ut alle ordene som er palindromer (leses likt baklengs som forover,
 # for eksempel "radar" eller "level").
 
-my_palindrom_list = ["Radar", "Level", "Morten", "Python", "Civic"]
+my_palindrom_list = ["Radar", "Level", "Morten", "PycharmProjects", "Civic"]
 palindromer = []
 
 

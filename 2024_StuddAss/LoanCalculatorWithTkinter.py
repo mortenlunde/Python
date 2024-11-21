@@ -20,8 +20,8 @@ def submit():
         result_label.config(text="Total kostnad: Kr " + str(round(total_cost, 2)))
         monthly_label.config(text="Månedlig betaling: Kr " + str(round(payment, 2)))
 
-    # Gir feillmelding i pop-up vindu
     except ValueError:
+        # Gir feillmelding i pop-up vindu
         messagebox.showerror("Input Error", "For lånesum og lengde på lån er kun hele tall tillat. For "
                                             "rente er det tillat med heltall og kommaseparert tall.")
 

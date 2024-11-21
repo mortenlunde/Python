@@ -2,7 +2,7 @@
 from datetime import datetime
 from datetime import date
 from datetime import timedelta
-import pytz  # Python TimeZone
+import pytz  # PycharmProjects TimeZone
 
 #%%
 onow = date.day

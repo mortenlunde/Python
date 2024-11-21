@@ -1,5 +1,5 @@
 # ===============================================================================
-#                      Print: Innebygd funksjon i Python
+#                      Print: Innebygd funksjon i PycharmProjects
 # ===============================================================================
 
 # Dette er en kommentar

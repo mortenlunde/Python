@@ -1,2 +1,51 @@
 {"title": "Harry Potter and the Philosopher's Stone", "authors": ["J.K. Rowling"], "publication_year": 1997, "ratings_count": 1000000, "average_rating": 4.8}
 {"title": "Harry Potter and the Chamber of Secrets", "authors": ["J.K. Rowling"], "publication_year": 1998, "ratings_count": 900000, "average_rating": 4.7}
+{"title": "Harry Potter and the Prisoner of Azkaban", "authors": ["J.K. Rowling"], "publication_year": 1999, "ratings_count": 850000, "average_rating": 4.8}
+{"title": "Harry Potter and the Goblet of Fire", "authors": ["J.K. Rowling"], "publication_year": 2000, "ratings_count": 1100000, "average_rating": 4.7}
+{"title": "Harry Potter and the Order of the Phoenix", "authors": ["J.K. Rowling"], "publication_year": 2003, "ratings_count": 950000, "average_rating": 4.6}
+{"title": "Harry Potter and the Half-Blood Prince", "authors": ["J.K. Rowling"], "publication_year": 2005, "ratings_count": 1200000, "average_rating": 4.7}
+{"title": "Harry Potter and the Deathly Hallows", "authors": ["J.K. Rowling"], "publication_year": 2007, "ratings_count": 1300000, "average_rating": 4.9}
+{"title": "The Hobbit", "authors": ["J.R.R. Tolkien"], "publication_year": 1937, "ratings_count": 750000, "average_rating": 4.8}
+{"title": "The Fellowship of the Ring", "authors": ["J.R.R. Tolkien"], "publication_year": 1954, "ratings_count": 900000, "average_rating": 4.7}
+{"title": "The Two Towers", "authors": ["J.R.R. Tolkien"], "publication_year": 1954, "ratings_count": 850000, "average_rating": 4.8}
+{"title": "The Return of the King", "authors": ["J.R.R. Tolkien"], "publication_year": 1955, "ratings_count": 950000, "average_rating": 4.9}
+{"title": "The Catcher in the Rye", "authors": ["J.D. Salinger"], "publication_year": 1951, "ratings_count": 500000, "average_rating": 4.1}
+{"title": "To Kill a Mockingbird", "authors": ["Harper Lee"], "publication_year": 1960, "ratings_count": 1200000, "average_rating": 4.8}
+{"title": "1984", "authors": ["George Orwell"], "publication_year": 1949, "ratings_count": 1400000, "average_rating": 4.6}
+{"title": "Animal Farm", "authors": ["George Orwell"], "publication_year": 1945, "ratings_count": 1000000, "average_rating": 4.7}
+{"title": "Pride and Prejudice", "authors": ["Jane Austen"], "publication_year": 1813, "ratings_count": 1100000, "average_rating": 4.6}
+{"title": "The Great Gatsby", "authors": ["F. Scott Fitzgerald"], "publication_year": 1925, "ratings_count": 1300000, "average_rating": 4.5}
+{"title": "Moby-Dick", "authors": ["Herman Melville"], "publication_year": 1851, "ratings_count": 350000, "average_rating": 4.3}
+{"title": "War and Peace", "authors": ["Leo Tolstoy"], "publication_year": 1869, "ratings_count": 450000, "average_rating": 4.4}
+{"title": "Crime and Punishment", "authors": ["Fyodor Dostoevsky"], "publication_year": 1866, "ratings_count": 400000, "average_rating": 4.7}
+{"title": "The Brothers Karamazov", "authors": ["Fyodor Dostoevsky"], "publication_year": 1880, "ratings_count": 380000, "average_rating": 4.8}
+{"title": "Jane Eyre", "authors": ["Charlotte Brontë"], "publication_year": 1847, "ratings_count": 900000, "average_rating": 4.7}
+{"title": "Wuthering Heights", "authors": ["Emily Brontë"], "publication_year": 1847, "ratings_count": 850000, "average_rating": 4.5}
+{"title": "Brave New World", "authors": ["Aldous Huxley"], "publication_year": 1932, "ratings_count": 800000, "average_rating": 4.3}
+{"title": "The Odyssey", "authors": ["Homer"], "publication_year": -800, "ratings_count": 300000, "average_rating": 4.4}
+{"title": "The Iliad", "authors": ["Homer"], "publication_year": -750, "ratings_count": 280000, "average_rating": 4.3}
+{"title": "The Divine Comedy", "authors": ["Dante Alighieri"], "publication_year": 1320, "ratings_count": 400000, "average_rating": 4.6}
+{"title": "Don Quixote", "authors": ["Miguel de Cervantes"], "publication_year": 1605, "ratings_count": 320000, "average_rating": 4.5}
+{"title": "One Hundred Years of Solitude", "authors": ["Gabriel Garcia Marquez"], "publication_year": 1967, "ratings_count": 700000, "average_rating": 4.7}
+{"title": "The Catch-22", "authors": ["Joseph Heller"], "publication_year": 1961, "ratings_count": 600000, "average_rating": 4.4}
+{"title": "Lolita", "authors": ["Vladimir Nabokov"], "publication_year": 1955, "ratings_count": 550000, "average_rating": 4.2}
+{"title": "The Alchemist", "authors": ["Paulo Coelho"], "publication_year": 1988, "ratings_count": 1400000, "average_rating": 4.2}
+{"title": "The Road", "authors": ["Cormac McCarthy"], "publication_year": 2006, "ratings_count": 500000, "average_rating": 4.1}
+{"title": "The Kite Runner", "authors": ["Khaled Hosseini"], "publication_year": 2003, "ratings_count": 1200000, "average_rating": 4.7}
+{"title": "The Book Thief", "authors": ["Markus Zusak"], "publication_year": 2005, "ratings_count": 1000000, "average_rating": 4.6}
+{"title": "A Tale of Two Cities", "authors": ["Charles Dickens"], "publication_year": 1859, "ratings_count": 800000, "average_rating": 4.4}
+{"title": "Les Misérables", "authors": ["Victor Hugo"], "publication_year": 1862, "ratings_count": 500000, "average_rating": 4.5}
+{"title": "Anna Karenina", "authors": ["Leo Tolstoy"], "publication_year": 1877, "ratings_count": 650000, "average_rating": 4.6}
+{"title": "Gone with the Wind", "authors": ["Margaret Mitchell"], "publication_year": 1936, "ratings_count": 850000, "average_rating": 4.8}
+{"title": "The Picture of Dorian Gray", "authors": ["Oscar Wilde"], "publication_year": 1890, "ratings_count": 700000, "average_rating": 4.4}
+{"title": "Ulysses", "authors": ["James Joyce"], "publication_year": 1922, "ratings_count": 380000, "average_rating": 4.0}
+{"title": "Fahrenheit 451", "authors": ["Ray Bradbury"], "publication_year": 1953, "ratings_count": 1000000, "average_rating": 4.6}
+{"title": "Maus", "authors": ["Art Spiegelman"], "publication_year": 1991, "ratings_count": 450000, "average_rating": 4.7}
+{"title": "The Grapes of Wrath", "authors": ["John Steinbeck"], "publication_year": 1939, "ratings_count": 600000, "average_rating": 4.5}
+{"title": "Slaughterhouse-Five", "authors": ["Kurt Vonnegut"], "publication_year": 1969, "ratings_count": 550000, "average_rating": 4.2}
+{"title": "The Old Man and the Sea", "authors": ["Ernest Hemingway"], "publication_year": 1952, "ratings_count": 700000, "average_rating": 4.3}
+{"title": "Catch-22", "authors": ["Joseph Heller"], "publication_year": 1961, "ratings_count": 620000, "average_rating": 4.2}
+{"title": "The Stranger", "authors": ["Albert Camus"], "publication_year": 1942, "ratings_count": 650000, "average_rating": 4.1}
+{"title": "Of Mice and Men", "authors": ["John Steinbeck"], "publication_year": 1937, "ratings_count": 1000000, "average_rating": 4.4}
+{"title": "The Giver", "authors": ["Lois Lowry"], "publication_year": 1993, "ratings_count": 800000, "average_rating": 4.2}
+{"title": "The Handmaid's Tale", "authors": ["Margaret Atwood"], "publication_year": 1985, "ratings_count": 900000, "average_rating": 4.3}

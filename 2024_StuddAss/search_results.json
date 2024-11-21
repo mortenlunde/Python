@@ -1,7 +1,130 @@
 {
     "facet_counts": [],
-    "found": 2,
+    "found": 7,
     "hits": [
+        {
+            "document": {
+                "authors": [
+                    "J.K. Rowling"
+                ],
+                "average_rating": 4.9,
+                "id": "6",
+                "publication_year": 2007,
+                "ratings_count": 1300000,
+                "title": "Harry Potter and the Deathly Hallows"
+            },
+            "highlight": {
+                "title": {
+                    "matched_tokens": [
+                        "Harry",
+                        "Potter"
+                    ],
+                    "snippet": "<mark>Harry</mark> <mark>Potter</mark> and the Deathly Hallows"
+                }
+            },
+            "highlights": [
+                {
+                    "field": "title",
+                    "matched_tokens": [
+                        "Harry",
+                        "Potter"
+                    ],
+                    "snippet": "<mark>Harry</mark> <mark>Potter</mark> and the Deathly Hallows"
+                }
+            ],
+            "text_match": 1157451471441100921,
+            "text_match_info": {
+                "best_field_score": "2211897868288",
+                "best_field_weight": 15,
+                "fields_matched": 1,
+                "num_tokens_dropped": 0,
+                "score": "1157451471441100921",
+                "tokens_matched": 2,
+                "typo_prefix_score": 0
+            }
+        },
+        {
+            "document": {
+                "authors": [
+                    "J.K. Rowling"
+                ],
+                "average_rating": 4.7,
+                "id": "5",
+                "publication_year": 2005,
+                "ratings_count": 1200000,
+                "title": "Harry Potter and the Half-Blood Prince"
+            },
+            "highlight": {
+                "title": {
+                    "matched_tokens": [
+                        "Harry",
+                        "Potter"
+                    ],
+                    "snippet": "<mark>Harry</mark> <mark>Potter</mark> and the Half-Blood Prince"
+                }
+            },
+            "highlights": [
+                {
+                    "field": "title",
+                    "matched_tokens": [
+                        "Harry",
+                        "Potter"
+                    ],
+                    "snippet": "<mark>Harry</mark> <mark>Potter</mark> and the Half-Blood Prince"
+                }
+            ],
+            "text_match": 1157451471441100921,
+            "text_match_info": {
+                "best_field_score": "2211897868288",
+                "best_field_weight": 15,
+                "fields_matched": 1,
+                "num_tokens_dropped": 0,
+                "score": "1157451471441100921",
+                "tokens_matched": 2,
+                "typo_prefix_score": 0
+            }
+        },
+        {
+            "document": {
+                "authors": [
+                    "J.K. Rowling"
+                ],
+                "average_rating": 4.7,
+                "id": "3",
+                "publication_year": 2000,
+                "ratings_count": 1100000,
+                "title": "Harry Potter and the Goblet of Fire"
+            },
+            "highlight": {
+                "title": {
+                    "matched_tokens": [
+                        "Harry",
+                        "Potter"
+                    ],
+                    "snippet": "<mark>Harry</mark> <mark>Potter</mark> and the Goblet of Fire"
+                }
+            },
+            "highlights": [
+                {
+                    "field": "title",
+                    "matched_tokens": [
+                        "Harry",
+                        "Potter"
+                    ],
+                    "snippet": "<mark>Harry</mark> <mark>Potter</mark> and the Goblet of Fire"
+                }
+            ],
+            "text_match": 1157451471441100921,
+            "text_match_info": {
+                "best_field_score": "2211897868288",
+                "best_field_weight": 15,
+                "fields_matched": 1,
+                "num_tokens_dropped": 0,
+                "score": "1157451471441100921",
+                "tokens_matched": 2,
+                "typo_prefix_score": 0
+            }
+        },
         {
             "document": {
                 "authors": [
@@ -30,6 +153,47 @@
                         "Potter"
                     ],
                     "snippet": "<mark>Harry</mark> <mark>Potter</mark> and the Philosopher's Stone"
+                }
+            ],
+            "text_match": 1157451471441100921,
+            "text_match_info": {
+                "best_field_score": "2211897868288",
+                "best_field_weight": 15,
+                "fields_matched": 1,
+                "num_tokens_dropped": 0,
+                "score": "1157451471441100921",
+                "tokens_matched": 2,
+                "typo_prefix_score": 0
+            }
+        },
+        {
+            "document": {
+                "authors": [
+                    "J.K. Rowling"
+                ],
+                "average_rating": 4.6,
+                "id": "4",
+                "publication_year": 2003,
+                "ratings_count": 950000,
+                "title": "Harry Potter and the Order of the Phoenix"
+            },
+            "highlight": {
+                "title": {
+                    "matched_tokens": [
+                        "Harry",
+                        "Potter"
+                    ],
+                    "snippet": "<mark>Harry</mark> <mark>Potter</mark> and the Order of the Phoenix"
+                }
+            },
+            "highlights": [
+                {
+                    "field": "title",
+                    "matched_tokens": [
+                        "Harry",
+                        "Potter"
+                    ],
+                    "snippet": "<mark>Harry</mark> <mark>Potter</mark> and the Order of the Phoenix"
                 }
             ],
             "text_match": 1157451471441100921,
@@ -83,9 +247,50 @@
                 "tokens_matched": 2,
                 "typo_prefix_score": 0
             }
+        },
+        {
+            "document": {
+                "authors": [
+                    "J.K. Rowling"
+                ],
+                "average_rating": 4.8,
+                "id": "2",
+                "publication_year": 1999,
+                "ratings_count": 850000,
+                "title": "Harry Potter and the Prisoner of Azkaban"
+            },
+            "highlight": {
+                "title": {
+                    "matched_tokens": [
+                        "Harry",
+                        "Potter"
+                    ],
+                    "snippet": "<mark>Harry</mark> <mark>Potter</mark> and the Prisoner of Azkaban"
+                }
+            },
+            "highlights": [
+                {
+                    "field": "title",
+                    "matched_tokens": [
+                        "Harry",
+                        "Potter"
+                    ],
+                    "snippet": "<mark>Harry</mark> <mark>Potter</mark> and the Prisoner of Azkaban"
+                }
+            ],
+            "text_match": 1157451471441100921,
+            "text_match_info": {
+                "best_field_score": "2211897868288",
+                "best_field_weight": 15,
+                "fields_matched": 1,
+                "num_tokens_dropped": 0,
+                "score": "1157451471441100921",
+                "tokens_matched": 2,
+                "typo_prefix_score": 0
+            }
         }
     ],
-    "out_of": 2,
+    "out_of": 51,
     "page": 1,
     "request_params": {
         "collection_name": "books",
@@ -94,5 +299,5 @@
         "q": "harry potter"
     },
     "search_cutoff": false,
-    "search_time_ms": 0
+    "search_time_ms": 2
 }

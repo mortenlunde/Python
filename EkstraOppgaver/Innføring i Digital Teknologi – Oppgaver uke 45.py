@@ -100,7 +100,7 @@ ofte måles i bytes (kilobyte, megabyte, osv.). Derfor er alternativene b) og c)
 # 12288 MB / 0,75 MB/s = 16384 s = 4.55 timer.
 
 
-# c) Lag et Python skript hvor du kan variere bitrate for å få antall timer og minutter som resultat baser
+# c) Lag et PycharmProjects skript hvor du kan variere bitrate for å få antall timer og minutter som resultat baser
 # på informasjonen over.
 def calculate_duration(_data_quota_gb, _bitrate_mb_per_s):
     data_quota_mb = _data_quota_gb * 1024
@@ -125,7 +125,7 @@ duration_hours_4k, duration_minutes_4k = calculate_duration(data_quota_gb, bitra
 print(f"Livesendingen i 4K-kvalitet kan vare i {duration_hours_4k} timer og {duration_minutes_4k} minutter.")
 
 
-#%% Lag et Python skript som tar en tallverdi og skriver ut bokstaven i henhold til standard ASCII tabell
+#%% Lag et PycharmProjects skript som tar en tallverdi og skriver ut bokstaven i henhold til standard ASCII tabell
 def number_to_ascii_char(number):
     try:
         char = chr(int(number))
@@ -138,7 +138,7 @@ user_input = input("Skriv inn en tallverdi (32-126): ")
 number_to_ascii_char(user_input)
 
 
-#%% Lag et Python skript som tar en ASCII karakter og skriver ut tallverdien
+#%% Lag et PycharmProjects skript som tar en ASCII karakter og skriver ut tallverdien
 def ascii_char_to_number(char):
     try:
         number = ord(char)
